@@ -1,0 +1,82 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* justify-content: space-around; */
+ padding: 10px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.Header{
+    margin: 0 0 0 15px;
+}
+.ListContainer{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+/* border: 2px solid red; */
+width: 80%;
+}
+.ListContainer li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 15px;
+/* border: 2px solid red; */
+}
+.ListContainer li:hover{
+    cursor: pointer;
+}
+.InfoContainer{
+    margin: 0 0 0 15px;
+}
+.InfoContainer p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.PageContainer p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 15px 15px;
+
+}
+.FirstForm p,.SecondForm p,.ThirdForm p,.ForthForm p,.FifthForm p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+label{
+    /* font-size: 18px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.FirstForm,.SecondForm,.ThirdForm,.ForthForm,.FifthForm{
+    margin: 15px;
+}
+input{
+    margin: 0 0 5px 15px;
+    outline: none;
+    /* border: none; */
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 15%;
+    padding: 5px 0;
+    text-align: center;
+}
+.FirstForm button,.SecondForm button,.ThirdForm button,.ForthForm button,.FifthForm button{
+    width: 8%;
+    padding: 8px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+span{
+    margin: 0 0 0 15px;
+}
